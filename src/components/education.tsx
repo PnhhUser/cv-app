@@ -5,7 +5,7 @@ const EducationComponent: React.FC = function () {
     <div className="p-2">
       <div className="flex gap-2">
         <AcademicCapIcon className="size-6 bg-black text-white p-1 rounded-md" />
-        <h3 className="text-xl font-bold"> Học vấn </h3>
+        <h3 className="text-xl font-bold underline"> Học vấn </h3>
       </div>
       <ul className="mt-1">
         <li className="font-bold uppercase">

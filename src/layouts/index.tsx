@@ -1,7 +1,7 @@
+import { Outlet } from "react-router-dom";
 import EducationComponent from "../components/education";
 import NavComponent from "../components/nav";
 import PersonInfomationComponent from "../components/personInfomation";
-import AppRoutes from "../router";
 
 function Layout() {
   return (
@@ -16,7 +16,7 @@ function Layout() {
         <NavComponent />
       </div>
       <div className="col-span-10 row-span-12 lg:col-span-12 lg:col-start-7 lg:row-start-1 lg:row-span-13 shadow bg-white rounded-md">
-        <AppRoutes />
+        <Outlet />
       </div>
       <div className="col-start-11 col-end-13 row-start-1 row-span-14 shadow bg-white rounded-md lg:hidden">
         <NavComponent />
