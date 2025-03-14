@@ -1,5 +1,5 @@
 export enum ParamsKey {
-  skills = "Kỹ năng",
+  tech = "Công nghệ đã sử dụng",
   projects = "Dự án cá nhân",
-  experience = "Kinh nghiệm",
+  experience = "Kinh nghiệm làm việc",
 }

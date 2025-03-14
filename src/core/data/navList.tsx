@@ -9,7 +9,7 @@ import { CONTENT_WEB } from "../constants/content";
 import {
   EXPERIENCE_ROUTE,
   PROJECT_ROUTE,
-  SKILL_ROUTE,
+  TECH_ROUTE,
   ROOT_ROUTE,
 } from "../constants/route";
 
@@ -25,8 +25,8 @@ export const navList: Nav[] = [
     icon: <ExpIcon />,
   },
   {
-    name: CONTENT_WEB.SKILL_TXT,
-    route: SKILL_ROUTE,
+    name: CONTENT_WEB.TECH_TXT,
+    route: TECH_ROUTE,
     icon: <SkillIcon />,
   },
   {
